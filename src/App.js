@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='/weather'  element={<Tempapp />} />
+        <Route exact path='/'  element={<Tempapp />} />
       </Routes>
 
     </Router>
